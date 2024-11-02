@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="variables.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Water Jug Challenge</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Water Jug Challenge</h1>
+        
+        <label for="jugX">Capacity of Jug X (gallons):</label>
+        <input type="number" id="jugX" placeholder="Enter capacity for Jug X" min="1" required>
+        
+        <label for="jugY">Capacity of Jug Y (gallons):</label>
+        <input type="number" id="jugY" placeholder="Enter capacity for Jug Y" min="1" required>
+        
+        <label for="target">Target Amount (gallons):</label>
+        <input type="number" id="target" placeholder="Enter target amount" min="1" required>
+        
+        
+        <button id="solveButton">Solve</button>
+        
+        <div id="solution"></div>
+        <div id="jugStatus"></div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
